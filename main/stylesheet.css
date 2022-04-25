@@ -1,0 +1,108 @@
+.navbar{
+    
+    background-color: black;
+    width: 100%;
+    height: 5vw;
+    margin-bottom: 10px;
+}
+
+
+
+body{
+    padding: 0px;
+    margin:0px;
+    height: 100%;
+}
+
+.section {
+    margin-bottom:15px;
+}
+
+img{
+    box-shadow: -5px 5px 2px rgb(85, 83, 83);
+}
+
+.navbutton{
+    margin:0;
+    box-shadow: none;
+}
+
+.row div{
+    margin-bottom:20px;
+}
+
+.footer{
+    padding:15px; 
+    text-align:center; 
+    font-size:12px;height:10vw; 
+    background-color:black; 
+    margin:0px;
+    opacity: 0.85;
+    position: relative;
+    bottom: 0;
+    
+}
+
+
+.courses td{
+    width: 20vw;
+    height: 15vw;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: -5px 5px 5px rgb(119, 117, 117);
+}
+.courses{
+    margin: auto;
+}
+
+.contain_me {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1.1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.8fr 1fr 0.2fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . . . . . . ."
+      ". left-side left-side left-side right-side right-side right-side ."
+      ". left-side left-side left-side right-side right-side right-side ."
+      ". . . . . . . .";
+  }
+  
+  .left-side { grid-area: left-side; }
+  
+  .right-side { grid-area: right-side; }
+  
+  
+.accountbox{
+    height: 9vw;
+    width: 28vw;
+    overflow: auto;
+}
+
+.container_main {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Main Main Main"
+      "Main Main Main"
+      "Main Main Main";
+  }
+  
+  .Main { grid-area: Main; }
+
+
+.min_height {
+    min-height: 75vh;
+}
+
+.tall {
+    height: 8vh;
+}
+
+.quiz_content{
+
+    width:70%;
+    text-align: center;
+    margin-left:15vw;
+}
